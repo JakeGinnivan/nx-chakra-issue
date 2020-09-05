@@ -51,7 +51,8 @@
         "serve": {
           "builder": "@nrwl/web:dev-server",
           "options": {
-            "buildTarget": "chakra-ui-test:build"
+            "buildTarget": "chakra-ui-test:build",
+            "port": 4800
           },
           "configurations": {
             "production": {
